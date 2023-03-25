@@ -1,6 +1,4 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
@@ -157,7 +155,7 @@ h6,
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #000000;
+  background: #ee7843;
 }
 
 .navbar .dropdown ul {
@@ -355,7 +353,7 @@ section {
 .section-title h2 {
   font-size: 34px;
   font-weight: 700;
-  padding-bottom: 10px;
+  padding-bottom: 0;
   line-height: 1px;
   margin-bottom: 15px;
   color: #c2b7b1;
@@ -369,7 +367,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   color: #4e4039;
-} 
+}
 
 .section-title p::after {
   content: "";
@@ -380,7 +378,7 @@ section {
   background: #00b10f;
   bottom: 0;
   left: calc(50% - 30px);
-} 
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -449,7 +447,7 @@ section {
 .about i {
   font-size: 48px;
   margin-top: 15px;
-  color: #7af3df;
+  color: #f39e7a;
 }
 
 .about p {
@@ -468,7 +466,7 @@ section {
     max-width: 90%;
   }
 }
-/* 
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -830,7 +828,7 @@ section {
     padding: 3px 0;
   }
 }
- */
+
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -839,14 +837,13 @@ section {
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
 
 /* :: 7.0 Top Catagory Area */
 .single-top-catagory {
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  position: relative;
-  border-radius: 25px;
+  position: relative;
+  border-radius: 50px;
   z-index: 2;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   overflow: hidden; }
@@ -861,8 +858,8 @@ section {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.8);
-    background: -webkit-linear-gradient(to right, #000, rgba(0, 0, 0, 0.7));
-    background: linear-gradient(to right, #000, rgba(0, 0, 0, 0.0)); }
+    background: -webkit-linear-gradient(to right, #000, rgba(0, 0, 0, 0.1));
+    background: linear-gradient(to right, #000, rgba(0, 0, 0, 0.1)); }
   .single-top-catagory .top-cta-content {
     position: absolute;
     top: 50%;
@@ -891,15 +888,7 @@ section {
 
 
 
-/* Button */
 
-/* <!-- HTML !-->
-<button class="button-59" role="button">Button 59</button> */
-
-/* CSS */
-
-
-/* CSS */
 .button-56 {
   align-items: center;
   background-color: #fee6e3;
